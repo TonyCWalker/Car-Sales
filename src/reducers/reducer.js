@@ -28,6 +28,7 @@ const initialState = {
           features: [...state.car.features, action.payload]
         }
       };
+    
       case REMOVE_FEATURE:
       return {
         ...state,
